@@ -2,9 +2,11 @@ import React from 'react'
 
 function Footer() {
   return (
-    <div>
-      Footer
-    </div>
+    <footer className='bg-primary p-12'>
+      <div className='container mx-auto'>
+        <p className='text-white text-center'>Copyright &copy; Ecommerce Shop 2024.All rights reserved</p>
+      </div>
+    </footer>
   )
 }
 
